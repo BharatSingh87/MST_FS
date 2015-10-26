@@ -3,4 +3,9 @@ Implementation of the paper "Maximum Spanning Tree based redundancy elimination 
 
 Main file in this project is "project.java"
 
-Input file and output files should be in *.txt format as attahed in Sample folder.
+Input file: ovarian_61902.txt
+Output file1 (after applying Fisher Score): ovarian_61902Fisher.txt
+Output file2 (after applying MST_FS or Proposed Approach): ovarian_61902PA.txt
+
+
+
