@@ -276,9 +276,9 @@ public class project {
 //					if((covariance(i,i)- covariance(j,j))<0){
 //						z=-(covariance(i,i)- covariance(j,j));
 //					}
-					g.mark(i, j,NewClass.fisher1(mat1, i, j));
+					g.mark(i, j,PearsonCorrelation.fisher1(mat1, i, j));
                                         
-					//if(mat[j][0]== 0) System.out.println(" -----< "+ j);NewClass1.fisher2(mat1, i, j)
+					//if(mat[j][0]== 0) System.out.println(" -----< "+ j);PearsonCorrelation.fisher2(mat1, i, j)
 					//System.out.println(""+mat[i][0]+ " "+mat[j][0]); (covariance(i,j))/(Math.sqrt(covariance(i,i))*Math.sqrt(covariance(j,j)));
                                      //   ( (covariance(i,j))/((covariance(i,i)*covariance(i,i))))
 					//System.out.print((covariance(i,j))/(covariance(i,i)*covariance(i,i))+ " ");
